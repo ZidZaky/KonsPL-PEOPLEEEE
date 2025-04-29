@@ -1,0 +1,58 @@
+{
+    "messages": {
+        "ID": {
+            "select_language": "Pilih Bahasa (ID/EN/JV): ",
+            "invalid_language": "Bahasa tidak tersedia. Tekan Enter untuk coba lagi...",
+            "welcome": "Selamat datang di mesin vending pintar",
+            "choose_instruction": "Ketik kode produk untuk membeli",
+            "admin_instruction": "Ketik 00 untuk masuk Dashboard Admin",
+            "exit_instruction": "Ketik EXIT untuk keluar",
+            "admin_dashboard": "=== DASHBOARD ADMIN ===",
+            "total_products": "Total produk: ",
+            "total_value": "Total nilai barang: Rp ",
+            "press_enter_return": "Tekan Enter untuk kembali...",
+            "product_selection": "Anda memilih: ",
+            "input_quantity": "Jumlah yang ingin dibeli: ",
+            "invalid_quantity": "Jumlah tidak valid.",
+            "checkout_success": "Checkout berhasil, terima kasih!",
+            "no_product": "Produk tidak ditemukan",
+            "thank_you": "Terima kasih telah menggunakan vending machine!"
+        },
+        "EN": {
+            "select_language": "Select Language (ID/EN/JV): ",
+            "invalid_language": "Language not available. Press Enter to try again...",
+            "welcome": "Welcome to the smart vending machine",
+            "choose_instruction": "Type product code to buy",
+            "admin_instruction": "Type 00 to enter Admin Dashboard",
+            "exit_instruction": "Type EXIT to exit",
+            "admin_dashboard": "=== ADMIN DASHBOARD ===",
+            "total_products": "Total products: ",
+            "total_value": "Total product value: Rp ",
+            "press_enter_return": "Press Enter to return...",
+            "product_selection": "You selected: ",
+            "input_quantity": "Enter quantity: ",
+            "invalid_quantity": "Invalid quantity.",
+            "checkout_success": "Checkout successful, thank you!",
+            "no_product": "Product not found",
+            "thank_you": "Thank you for using the vending machine!"
+        },
+        "JV": {
+            "select_language": "Pilih Basa (ID/EN/JV): ",
+            "invalid_language": "Basa ora kasedhiya. Penet Enter kanggo nyoba maneh...",
+            "welcome": "Sugeng rawuh ing mesin vending pinter",
+            "choose_instruction": "Ketik kode produk kanggo tuku",
+            "admin_instruction": "Ketik 00 kanggo mlebu Dashboard Admin",
+            "exit_instruction": "Ketik EXIT kanggo metu",
+            "admin_dashboard": "=== DASHBOARD ADMIN ===",
+            "total_products": "Total produk: ",
+            "total_value": "Total regane barang: Rp ",
+            "press_enter_return": "Penet Enter kanggo bali...",
+            "product_selection": "Sampeyan milih: ",
+            "input_quantity": "Lebokake jumlah: ",
+            "invalid_quantity": "Jumlah ora valid.",
+            "checkout_success": "Checkout rampung, matur nuwun!",
+            "no_product": "Produk ora ditemokake",
+            "thank_you": "Matur nuwun wis nggunakake mesin vending!"
+        }
+    }
+}

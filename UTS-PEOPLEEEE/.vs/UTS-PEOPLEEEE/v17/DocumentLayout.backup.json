@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{4BC45D1C-427C-44F2-9925-F56C3B29126A}|UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj|d:\\semester_6\\konstruksi pl - fwp\\konspl-peopleeee\\uts-peopleeee\\uts-peopleeee\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BC45D1C-427C-44F2-9925-F56C3B29126A}|UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj|solutionrelative:uts-peopleeee\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BC45D1C-427C-44F2-9925-F56C3B29126A}|UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj|d:\\semester_6\\konstruksi pl - fwp\\konspl-peopleeee\\uts-peopleeee\\uts-peopleeee\\languageconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BC45D1C-427C-44F2-9925-F56C3B29126A}|UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj|solutionrelative:uts-peopleeee\\languageconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9673118-6A7A-4D7E-86F6-D894BEB95092}|AutoVending\\AutoVending.csproj|d:\\semester_6\\konstruksi pl - fwp\\konspl-peopleeee\\uts-peopleeee\\autovending\\vendingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9673118-6A7A-4D7E-86F6-D894BEB95092}|AutoVending\\AutoVending.csproj|solutionrelative:autovending\\vendingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BC45D1C-427C-44F2-9925-F56C3B29126A}|UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj|d:\\semester_6\\konstruksi pl - fwp\\konspl-peopleeee\\uts-peopleeee\\uts-peopleeee\\languageconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4BC45D1C-427C-44F2-9925-F56C3B29126A}|UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj|solutionrelative:uts-peopleeee\\languageconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +26,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 52,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LanguageConfig.cs",
+              "DocumentMoniker": "D:\\Semester_6\\Konstruksi PL - FWP\\KonsPL-PEOPLEEEE\\UTS-PEOPLEEEE\\UTS-PEOPLEEEE\\LanguageConfig.cs",
+              "RelativeDocumentMoniker": "UTS-PEOPLEEEE\\LanguageConfig.cs",
+              "ToolTip": "D:\\Semester_6\\Konstruksi PL - FWP\\KonsPL-PEOPLEEEE\\UTS-PEOPLEEEE\\UTS-PEOPLEEEE\\LanguageConfig.cs",
+              "RelativeToolTip": "UTS-PEOPLEEEE\\LanguageConfig.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T10:11:22.435Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "languageConfig.json",
+              "DocumentMoniker": "D:\\Semester_6\\Konstruksi PL - FWP\\KonsPL-PEOPLEEEE\\UTS-PEOPLEEEE\\UTS-PEOPLEEEE\\languageConfig.json",
+              "RelativeDocumentMoniker": "UTS-PEOPLEEEE\\languageConfig.json",
+              "ToolTip": "D:\\Semester_6\\Konstruksi PL - FWP\\KonsPL-PEOPLEEEE\\UTS-PEOPLEEEE\\UTS-PEOPLEEEE\\languageConfig.json",
+              "RelativeToolTip": "UTS-PEOPLEEEE\\languageConfig.json",
+              "ViewState": "AgIAACEAAAAAAAAAAAAUwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-29T10:45:44.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VendingManager.cs",
+              "DocumentMoniker": "D:\\Semester_6\\Konstruksi PL - FWP\\KonsPL-PEOPLEEEE\\UTS-PEOPLEEEE\\AutoVending\\VendingManager.cs",
+              "RelativeDocumentMoniker": "AutoVending\\VendingManager.cs",
+              "ToolTip": "D:\\Semester_6\\Konstruksi PL - FWP\\KonsPL-PEOPLEEEE\\UTS-PEOPLEEEE\\AutoVending\\VendingManager.cs",
+              "RelativeToolTip": "AutoVending\\VendingManager.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T10:03:20.237Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,9 +76,9 @@
               "RelativeDocumentMoniker": "UTS-PEOPLEEEE\\Program.cs",
               "ToolTip": "D:\\Semester_6\\Konstruksi PL - FWP\\KonsPL-PEOPLEEEE\\UTS-PEOPLEEEE\\UTS-PEOPLEEEE\\Program.cs",
               "RelativeToolTip": "UTS-PEOPLEEEE\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwDkAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T14:55:24.492Z",
+              "WhenOpened": "2025-04-29T10:02:47.829Z",
               "EditorCaption": ""
             }
           ]

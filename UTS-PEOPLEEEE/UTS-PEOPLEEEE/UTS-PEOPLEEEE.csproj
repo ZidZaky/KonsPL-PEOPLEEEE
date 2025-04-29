@@ -8,4 +8,18 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="languageConfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="languageConfig.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AutoVending\AutoVending.csproj" />
+  </ItemGroup>
+
 </Project>
