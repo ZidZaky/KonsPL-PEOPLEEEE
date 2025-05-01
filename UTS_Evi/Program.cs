@@ -1,9 +1,13 @@
-﻿public class Program()
+﻿namespace UTS_Evi
 {
-    public static void Main()
+    public class Program()
     {
-        CheckTransaction Transaksi = new CheckTransaction();
-        Transaksi.UI();
-    }
+        public static void Main()
+        {
+            CheckTransaction Transaksi = new CheckTransaction();
+            Transaksi.UI();
+        }
 
+    }
 }
+    
