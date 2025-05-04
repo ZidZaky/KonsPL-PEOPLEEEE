@@ -1,0 +1,25 @@
+{
+  "default_currency": "IDR",
+  "currencies": {
+    "IDR": {
+      "symbol": "Rp",
+      "name": "Rupiah",
+      "conversion_rate": 1
+    },
+    "USD": {
+      "symbol": "$",
+      "name": "US Dollar",
+      "conversion_rate": 0.000065
+    },
+    "EUR": {
+      "symbol": "€",
+      "name": "Euro",
+      "conversion_rate": 0.000061
+    },
+    "JPY": {
+      "symbol": "¥",
+      "name": "Japanese Yen",
+      "conversion_rate": 0.0098
+    }
+  }
+}
