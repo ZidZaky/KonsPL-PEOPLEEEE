@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VendLib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4314708e2445d444774eeac24730a91e211c0128")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0505ad0d6a2a87c92481067c43f9c742a51157d")]
 [assembly: System.Reflection.AssemblyProductAttribute("VendLib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VendLib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

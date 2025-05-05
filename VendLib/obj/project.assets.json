@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonstruksiPerangkatLunak-04-05\\VendLib\\VendLib.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonsPL-PEOPLEEEE\\VendLib\\VendLib.csproj",
       "projectName": "VendLib",
-      "projectPath": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonstruksiPerangkatLunak-04-05\\VendLib\\VendLib.csproj",
+      "projectPath": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonsPL-PEOPLEEEE\\VendLib\\VendLib.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonstruksiPerangkatLunak-04-05\\VendLib\\obj\\",
+      "outputPath": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonsPL-PEOPLEEEE\\VendLib\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

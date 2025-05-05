@@ -1,0 +1,12 @@
+C:\Users\LENOVO\Documents\Visual Studio 2022\Project\KonsPL-PEOPLEEEE\VendLib\obj\Debug\net8.0\VendLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Documents\Visual Studio 2022\Project\KonsPL-PEOPLEEEE\VendLib\obj\Debug\net8.0\VendLib.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Documents\Visual Studio 2022\Project\KonsPL-PEOPLEEEE\VendLib\obj\Debug\net8.0\VendLib.AssemblyInfo.cs
+C:\Users\LENOVO\Documents\Visual Studio 2022\Project\KonsPL-PEOPLEEEE\VendLib\obj\Debug\net8.0\VendLib.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Documents\Visual Studio 2022\Project\KonsPL-PEOPLEEEE\VendLib\obj\Debug\net8.0\VendLib.sourcelink.json
+C:\Users\LENOVO\Documents\Visual Studio 2022\Project\KonsPL-PEOPLEEEE\VendLib\bin\Debug\net8.0\VendLib.deps.json
+C:\Users\LENOVO\Documents\Visual Studio 2022\Project\KonsPL-PEOPLEEEE\VendLib\bin\Debug\net8.0\VendLib.dll
+C:\Users\LENOVO\Documents\Visual Studio 2022\Project\KonsPL-PEOPLEEEE\VendLib\bin\Debug\net8.0\VendLib.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2022\Project\KonsPL-PEOPLEEEE\VendLib\obj\Debug\net8.0\VendLib.dll
+C:\Users\LENOVO\Documents\Visual Studio 2022\Project\KonsPL-PEOPLEEEE\VendLib\obj\Debug\net8.0\refint\VendLib.dll
+C:\Users\LENOVO\Documents\Visual Studio 2022\Project\KonsPL-PEOPLEEEE\VendLib\obj\Debug\net8.0\VendLib.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2022\Project\KonsPL-PEOPLEEEE\VendLib\obj\Debug\net8.0\ref\VendLib.dll

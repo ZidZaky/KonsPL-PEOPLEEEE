@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "VendLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/VendLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/VendLib.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "VendLib/1.0.0": {
+      "type": "project",
+      "path": "../VendLib/VendLib.csproj",
+      "msbuildProject": "../VendLib/VendLib.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "VendLib >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\LENOVO\\.nuget\\packages\\": {},
@@ -14,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonstruksiPerangkatLunak-04-05\\TableDrivenVend\\TableDrivenVend.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonsPL-PEOPLEEEE\\TableDrivenVend\\TableDrivenVend.csproj",
       "projectName": "TableDrivenVend",
-      "projectPath": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonstruksiPerangkatLunak-04-05\\TableDrivenVend\\TableDrivenVend.csproj",
+      "projectPath": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonsPL-PEOPLEEEE\\TableDrivenVend\\TableDrivenVend.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonstruksiPerangkatLunak-04-05\\TableDrivenVend\\obj\\",
+      "outputPath": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonsPL-PEOPLEEEE\\TableDrivenVend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -38,7 +57,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonsPL-PEOPLEEEE\\VendLib\\VendLib.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonsPL-PEOPLEEEE\\VendLib\\VendLib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
