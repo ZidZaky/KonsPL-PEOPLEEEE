@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonstruksiPerangkatLunak-04-05\\VendLib\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonstruksiPerangkatLunak-04-05\\VendLib\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonstruksiPerangkatLunak-04-05\\VendLib\\VendingMachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VendingMachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonstruksiPerangkatLunak-04-05\\VendLib\\ProductCode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProductCode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VendingMachine.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonstruksiPerangkatLunak-04-05\\VendLib\\VendingMachine.cs",
+              "RelativeDocumentMoniker": "VendingMachine.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonstruksiPerangkatLunak-04-05\\VendLib\\VendingMachine.cs",
+              "RelativeToolTip": "VendingMachine.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T10:59:44.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductCode.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonstruksiPerangkatLunak-04-05\\VendLib\\ProductCode.cs",
+              "RelativeDocumentMoniker": "ProductCode.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonstruksiPerangkatLunak-04-05\\VendLib\\ProductCode.cs",
+              "RelativeToolTip": "ProductCode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T10:59:05.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonstruksiPerangkatLunak-04-05\\VendLib\\Product.cs",
+              "RelativeDocumentMoniker": "Product.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonstruksiPerangkatLunak-04-05\\VendLib\\Product.cs",
+              "RelativeToolTip": "Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T13:35:51Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+C:\Users\LENOVO\Documents\Visual Studio 2022\Project\KonstruksiPerangkatLunak-04-05\TableDrivenVend\bin\Debug\net8.0\TableDrivenVend.exe
+C:\Users\LENOVO\Documents\Visual Studio 2022\Project\KonstruksiPerangkatLunak-04-05\TableDrivenVend\bin\Debug\net8.0\TableDrivenVend.deps.json
+C:\Users\LENOVO\Documents\Visual Studio 2022\Project\KonstruksiPerangkatLunak-04-05\TableDrivenVend\bin\Debug\net8.0\TableDrivenVend.runtimeconfig.json
+C:\Users\LENOVO\Documents\Visual Studio 2022\Project\KonstruksiPerangkatLunak-04-05\TableDrivenVend\bin\Debug\net8.0\TableDrivenVend.dll
+C:\Users\LENOVO\Documents\Visual Studio 2022\Project\KonstruksiPerangkatLunak-04-05\TableDrivenVend\bin\Debug\net8.0\TableDrivenVend.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2022\Project\KonstruksiPerangkatLunak-04-05\TableDrivenVend\obj\Debug\net8.0\TableDrivenVend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\Documents\Visual Studio 2022\Project\KonstruksiPerangkatLunak-04-05\TableDrivenVend\obj\Debug\net8.0\TableDrivenVend.AssemblyInfoInputs.cache
+C:\Users\LENOVO\Documents\Visual Studio 2022\Project\KonstruksiPerangkatLunak-04-05\TableDrivenVend\obj\Debug\net8.0\TableDrivenVend.AssemblyInfo.cs
+C:\Users\LENOVO\Documents\Visual Studio 2022\Project\KonstruksiPerangkatLunak-04-05\TableDrivenVend\obj\Debug\net8.0\TableDrivenVend.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Documents\Visual Studio 2022\Project\KonstruksiPerangkatLunak-04-05\TableDrivenVend\obj\Debug\net8.0\TableDrivenVend.sourcelink.json
+C:\Users\LENOVO\Documents\Visual Studio 2022\Project\KonstruksiPerangkatLunak-04-05\TableDrivenVend\obj\Debug\net8.0\TableDrivenVend.dll
+C:\Users\LENOVO\Documents\Visual Studio 2022\Project\KonstruksiPerangkatLunak-04-05\TableDrivenVend\obj\Debug\net8.0\refint\TableDrivenVend.dll
+C:\Users\LENOVO\Documents\Visual Studio 2022\Project\KonstruksiPerangkatLunak-04-05\TableDrivenVend\obj\Debug\net8.0\TableDrivenVend.pdb
+C:\Users\LENOVO\Documents\Visual Studio 2022\Project\KonstruksiPerangkatLunak-04-05\TableDrivenVend\obj\Debug\net8.0\TableDrivenVend.genruntimeconfig.cache
+C:\Users\LENOVO\Documents\Visual Studio 2022\Project\KonstruksiPerangkatLunak-04-05\TableDrivenVend\obj\Debug\net8.0\ref\TableDrivenVend.dll
