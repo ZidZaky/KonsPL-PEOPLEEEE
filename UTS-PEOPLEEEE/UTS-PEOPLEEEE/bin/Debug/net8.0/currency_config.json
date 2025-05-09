@@ -12,12 +12,12 @@
       "conversion_rate": 0.000065
     },
     "EUR": {
-      "symbol": "€",
+      "symbol": "â‚¬",
       "name": "Euro",
       "conversion_rate": 0.000061
     },
     "JPY": {
-      "symbol": "¥",
+      "symbol": "Â¥",
       "name": "Japanese Yen",
       "conversion_rate": 0.0098
     }

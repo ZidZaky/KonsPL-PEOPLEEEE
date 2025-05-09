@@ -3,24 +3,44 @@
   "WorkspaceRootPath": "C:\\Coding\\Konstruksi Perangkat Lunak\\KonsPL-PEOPLEEEE\\UTS-PEOPLEEEE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4BC45D1C-427C-44F2-9925-F56C3B29126A}|UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj|c:\\coding\\konstruksi perangkat lunak\\konspl-peopleeee\\uts-peopleeee\\uts-peopleeee\\currencyconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4BC45D1C-427C-44F2-9925-F56C3B29126A}|UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj|solutionrelative:uts-peopleeee\\currencyconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BA4732CA-259D-4BA7-B3FD-A792285D846C}|TestProject\\TestProject.csproj|c:\\coding\\konstruksi perangkat lunak\\konspl-peopleeee\\uts-peopleeee\\testproject\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA4732CA-259D-4BA7-B3FD-A792285D846C}|TestProject\\TestProject.csproj|solutionrelative:testproject\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4BC45D1C-427C-44F2-9925-F56C3B29126A}|UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj|c:\\coding\\konstruksi perangkat lunak\\konspl-peopleeee\\uts-peopleeee\\uts-peopleeee\\currency_config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4BC45D1C-427C-44F2-9925-F56C3B29126A}|UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj|solutionrelative:uts-peopleeee\\currency_config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4BC45D1C-427C-44F2-9925-F56C3B29126A}|UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj|c:\\coding\\konstruksi perangkat lunak\\konspl-peopleeee\\uts-peopleeee\\uts-peopleeee\\operational_config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4BC45D1C-427C-44F2-9925-F56C3B29126A}|UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj|solutionrelative:uts-peopleeee\\operational_config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{4BC45D1C-427C-44F2-9925-F56C3B29126A}|UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj|c:\\coding\\konstruksi perangkat lunak\\konspl-peopleeee\\uts-peopleeee\\uts-peopleeee\\ipaymenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BC45D1C-427C-44F2-9925-F56C3B29126A}|UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj|solutionrelative:uts-peopleeee\\ipaymenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4BC45D1C-427C-44F2-9925-F56C3B29126A}|UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj|c:\\coding\\konstruksi perangkat lunak\\konspl-peopleeee\\uts-peopleeee\\uts-peopleeee\\jamoperasional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BC45D1C-427C-44F2-9925-F56C3B29126A}|UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj|solutionrelative:uts-peopleeee\\jamoperasional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4BC45D1C-427C-44F2-9925-F56C3B29126A}|UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj|c:\\coding\\konstruksi perangkat lunak\\konspl-peopleeee\\uts-peopleeee\\uts-peopleeee\\paymenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BC45D1C-427C-44F2-9925-F56C3B29126A}|UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj|solutionrelative:uts-peopleeee\\paymenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4BC45D1C-427C-44F2-9925-F56C3B29126A}|UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj|c:\\coding\\konstruksi perangkat lunak\\konspl-peopleeee\\uts-peopleeee\\uts-peopleeee\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4BC45D1C-427C-44F2-9925-F56C3B29126A}|UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj|solutionrelative:uts-peopleeee\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BC45D1C-427C-44F2-9925-F56C3B29126A}|UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj|c:\\coding\\konstruksi perangkat lunak\\konspl-peopleeee\\uts-peopleeee\\uts-peopleeee\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BC45D1C-427C-44F2-9925-F56C3B29126A}|UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj|solutionrelative:uts-peopleeee\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BC45D1C-427C-44F2-9925-F56C3B29126A}|UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj|c:\\coding\\konstruksi perangkat lunak\\konspl-peopleeee\\uts-peopleeee\\uts-peopleeee\\currencyconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BC45D1C-427C-44F2-9925-F56C3B29126A}|UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj|solutionrelative:uts-peopleeee\\currencyconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BC45D1C-427C-44F2-9925-F56C3B29126A}|UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj|c:\\coding\\konstruksi perangkat lunak\\konspl-peopleeee\\uts-peopleeee\\uts-peopleeee\\operational_config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4BC45D1C-427C-44F2-9925-F56C3B29126A}|UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj|solutionrelative:uts-peopleeee\\operational_config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BC45D1C-427C-44F2-9925-F56C3B29126A}|UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj|c:\\coding\\konstruksi perangkat lunak\\konspl-peopleeee\\uts-peopleeee\\uts-peopleeee\\currency_config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4BC45D1C-427C-44F2-9925-F56C3B29126A}|UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj|solutionrelative:uts-peopleeee\\currency_config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BC45D1C-427C-44F2-9925-F56C3B29126A}|UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj|c:\\coding\\konstruksi perangkat lunak\\konspl-peopleeee\\uts-peopleeee\\uts-peopleeee\\uts-peopleeee.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4BC45D1C-427C-44F2-9925-F56C3B29126A}|UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj|solutionrelative:uts-peopleeee\\uts-peopleeee.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,24 +50,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 52,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Coding\\Konstruksi Perangkat Lunak\\KonsPL-PEOPLEEEE\\UTS-PEOPLEEEE\\TestProject\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "TestProject\\UnitTest1.cs",
+              "ToolTip": "C:\\Coding\\Konstruksi Perangkat Lunak\\KonsPL-PEOPLEEEE\\UTS-PEOPLEEEE\\TestProject\\UnitTest1.cs",
+              "RelativeToolTip": "TestProject\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T16:35:39.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UTS-PEOPLEEEE",
+              "DocumentMoniker": "C:\\Coding\\Konstruksi Perangkat Lunak\\KonsPL-PEOPLEEEE\\UTS-PEOPLEEEE\\UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj",
+              "RelativeDocumentMoniker": "UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj",
+              "ToolTip": "C:\\Coding\\Konstruksi Perangkat Lunak\\KonsPL-PEOPLEEEE\\UTS-PEOPLEEEE\\UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj",
+              "RelativeToolTip": "UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-05T15:17:57.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "PaymentHandler.cs",
+              "DocumentMoniker": "C:\\Coding\\Konstruksi Perangkat Lunak\\KonsPL-PEOPLEEEE\\UTS-PEOPLEEEE\\UTS-PEOPLEEEE\\PaymentHandler.cs",
+              "RelativeDocumentMoniker": "UTS-PEOPLEEEE\\PaymentHandler.cs",
+              "ToolTip": "C:\\Coding\\Konstruksi Perangkat Lunak\\KonsPL-PEOPLEEEE\\UTS-PEOPLEEEE\\UTS-PEOPLEEEE\\PaymentHandler.cs",
+              "RelativeToolTip": "UTS-PEOPLEEEE\\PaymentHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T15:36:10.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IPaymentHandler.cs",
+              "DocumentMoniker": "C:\\Coding\\Konstruksi Perangkat Lunak\\KonsPL-PEOPLEEEE\\UTS-PEOPLEEEE\\UTS-PEOPLEEEE\\IPaymentHandler.cs",
+              "RelativeDocumentMoniker": "UTS-PEOPLEEEE\\IPaymentHandler.cs",
+              "ToolTip": "C:\\Coding\\Konstruksi Perangkat Lunak\\KonsPL-PEOPLEEEE\\UTS-PEOPLEEEE\\UTS-PEOPLEEEE\\IPaymentHandler.cs",
+              "RelativeToolTip": "UTS-PEOPLEEEE\\IPaymentHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T15:34:57.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CurrencyConfig.cs",
+              "DocumentMoniker": "C:\\Coding\\Konstruksi Perangkat Lunak\\KonsPL-PEOPLEEEE\\UTS-PEOPLEEEE\\UTS-PEOPLEEEE\\CurrencyConfig.cs",
+              "RelativeDocumentMoniker": "UTS-PEOPLEEEE\\CurrencyConfig.cs",
+              "ToolTip": "C:\\Coding\\Konstruksi Perangkat Lunak\\KonsPL-PEOPLEEEE\\UTS-PEOPLEEEE\\UTS-PEOPLEEEE\\CurrencyConfig.cs",
+              "RelativeToolTip": "UTS-PEOPLEEEE\\CurrencyConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T15:29:18.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Currency.cs",
+              "DocumentMoniker": "C:\\Coding\\Konstruksi Perangkat Lunak\\KonsPL-PEOPLEEEE\\UTS-PEOPLEEEE\\UTS-PEOPLEEEE\\Currency.cs",
+              "RelativeDocumentMoniker": "UTS-PEOPLEEEE\\Currency.cs",
+              "ToolTip": "C:\\Coding\\Konstruksi Perangkat Lunak\\KonsPL-PEOPLEEEE\\UTS-PEOPLEEEE\\UTS-PEOPLEEEE\\Currency.cs",
+              "RelativeToolTip": "UTS-PEOPLEEEE\\Currency.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T15:18:22.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "JamOperasional.cs",
               "DocumentMoniker": "C:\\Coding\\Konstruksi Perangkat Lunak\\KonsPL-PEOPLEEEE\\UTS-PEOPLEEEE\\UTS-PEOPLEEEE\\JamOperasional.cs",
               "RelativeDocumentMoniker": "UTS-PEOPLEEEE\\JamOperasional.cs",
               "ToolTip": "C:\\Coding\\Konstruksi Perangkat Lunak\\KonsPL-PEOPLEEEE\\UTS-PEOPLEEEE\\UTS-PEOPLEEEE\\JamOperasional.cs",
               "RelativeToolTip": "UTS-PEOPLEEEE\\JamOperasional.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-04T16:35:34.563Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "operational_config.json",
               "DocumentMoniker": "C:\\Coding\\Konstruksi Perangkat Lunak\\KonsPL-PEOPLEEEE\\UTS-PEOPLEEEE\\UTS-PEOPLEEEE\\operational_config.json",
               "RelativeDocumentMoniker": "UTS-PEOPLEEEE\\operational_config.json",
@@ -60,26 +158,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CurrencyConfig.cs",
-              "DocumentMoniker": "C:\\Coding\\Konstruksi Perangkat Lunak\\KonsPL-PEOPLEEEE\\UTS-PEOPLEEEE\\UTS-PEOPLEEEE\\CurrencyConfig.cs",
-              "RelativeDocumentMoniker": "UTS-PEOPLEEEE\\CurrencyConfig.cs",
-              "ToolTip": "C:\\Coding\\Konstruksi Perangkat Lunak\\KonsPL-PEOPLEEEE\\UTS-PEOPLEEEE\\UTS-PEOPLEEEE\\CurrencyConfig.cs",
-              "RelativeToolTip": "UTS-PEOPLEEEE\\CurrencyConfig.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T16:34:24.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "currency_config.json",
               "DocumentMoniker": "C:\\Coding\\Konstruksi Perangkat Lunak\\KonsPL-PEOPLEEEE\\UTS-PEOPLEEEE\\UTS-PEOPLEEEE\\currency_config.json",
               "RelativeDocumentMoniker": "UTS-PEOPLEEEE\\currency_config.json",
               "ToolTip": "C:\\Coding\\Konstruksi Perangkat Lunak\\KonsPL-PEOPLEEEE\\UTS-PEOPLEEEE\\UTS-PEOPLEEEE\\currency_config.json",
               "RelativeToolTip": "UTS-PEOPLEEEE\\currency_config.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-05-04T16:27:45.25Z",
               "EditorCaption": ""
@@ -92,7 +177,7 @@
               "RelativeDocumentMoniker": "UTS-PEOPLEEEE\\Program.cs",
               "ToolTip": "C:\\Coding\\Konstruksi Perangkat Lunak\\KonsPL-PEOPLEEEE\\UTS-PEOPLEEEE\\UTS-PEOPLEEEE\\Program.cs",
               "RelativeToolTip": "UTS-PEOPLEEEE\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-28T14:55:24.492Z",
               "EditorCaption": ""

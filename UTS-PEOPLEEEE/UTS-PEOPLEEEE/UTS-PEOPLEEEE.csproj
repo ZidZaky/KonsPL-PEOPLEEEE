@@ -9,7 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="currency_config.json" />
     <None Remove="operational_config.json" />
   </ItemGroup>
 
