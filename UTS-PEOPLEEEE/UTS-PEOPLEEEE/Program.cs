@@ -7,8 +7,8 @@ public enum VendingState
 {
     Order,
     Payment,
-    Finish, // Tambahkan status Finish
-    Error   // Tambahkan status Error untuk penanganan kesalahan
+    Finish,
+    Error
 }
 
 // Enum untuk merepresentasikan kode produk
@@ -29,66 +29,64 @@ public struct Product
     public ProductCode Code;
     public ProductName Name;
     public int Price;
-    public int Stock; // Tambahkan properti Stock
+    public int Stock;
 }
 
 public class SmartVendingMachine
 {
-    // State Machine Table (Automata)
+    // Teknik Automata
     public static Dictionary<VendingState, Dictionary<string, VendingState>> stateTable =
         new Dictionary<VendingState, Dictionary<string, VendingState>>
         {
             {
                 VendingState.Order, new Dictionary<string, VendingState>
                 {
-                    { "checkout", VendingState.Payment }, // Langsung ke Payment setelah pilih produk
+                    { "checkout", VendingState.Payment },
                     { "error", VendingState.Error }
                 }
             },
             {
-                VendingState.Payment, new Dictionary<string, VendingState>
+                VendingState.Payment, new Dictionary<string, VendingState> // state bayar
                 {
                     { "processPayment", VendingState.Finish },
                     { "error", VendingState.Error }
                 }
             },
             {
-                VendingState.Finish, new Dictionary<string, VendingState> // Tambahkan transisi dari Finish ke Order
+                VendingState.Finish, new Dictionary<string, VendingState>
                 {
-                    { "finishTransaction", VendingState.Order }, // Kembali ke Order setelah transaksi selesai
+                    { "finishTransaction", VendingState.Order },
                     { "error", VendingState.Error }
                 }
             },
             {
-                VendingState.Error, new Dictionary<string, VendingState> // State untuk menangani error
+                VendingState.Error, new Dictionary<string, VendingState> // State kalau error
                 {
-                    { "reset", VendingState.Order } // Transisi untuk reset dari state error
+                    { "reset", VendingState.Order }
                 }
             }
         };
 
-    // Product Data Table (Table Driven)
+    // Teknik Table Driven
     public static Product[] productTable = new Product[]
     {
         new Product { Code = ProductCode.P01, Name = ProductName.Fanta, Price = 10000, Stock = 10 },
         new Product { Code = ProductCode.P02, Name = ProductName.Fruitea, Price = 12000, Stock = 15 },
         new Product { Code = ProductCode.P03, Name = ProductName.Sprite, Price = 10000, Stock = 20 },
-        new Product { Code = ProductCode.P04, Name = ProductName.Pepsi, Price = 11000, Stock = 0 }, // Stok Pepsi diubah menjadi 0
+        new Product { Code = ProductCode.P04, Name = ProductName.Pepsi, Price = 11000, Stock = 0 },
         new Product { Code = ProductCode.P05, Name = ProductName.Aqua, Price = 5000, Stock = 30 },
     };
 
     public VendingState currentState;
-    //public Dictionary<ProductCode, int> orderList; // Dihapus, tidak perlu keranjang
     public int totalAmount;
-    public ProductCode selectedProductCode; // Menyimpan kode produk yang dipilih
-    public int quantity; // Menyimpan jumlah produk yang dibeli sebelum transaksi
+    public ProductCode selectedProductCode;
+    public int quantity;
 
     public SmartVendingMachine()
     {
-        currentState = VendingState.Order; // Mulai dari Order
-        //orderList = new Dictionary<ProductCode, int>(); // Dihapus
+        currentState = VendingState.Order;
         totalAmount = 0;
-        selectedProductCode = ProductCode.P01; // Inisialisasi dengan default value
+        selectedProductCode = ProductCode.P01;
         quantity = 0;
     }
 
@@ -102,7 +100,7 @@ public class SmartVendingMachine
                 return product;
             }
         }
-        throw new ArgumentException("Kode produk tidak valid."); // Ubah ke exception yang lebih spesifik
+        throw new ArgumentException("Kode produk tidak valid.");
     }
 
     // Metode untuk menampilkan menu produk
@@ -120,7 +118,7 @@ public class SmartVendingMachine
     }
 
     // Metode untuk memilih produk
-    public void SelectProduct(ProductCode code) // Parameter quantity dihapus
+    public void SelectProduct(ProductCode code)
     {
         try
         {
@@ -131,7 +129,7 @@ public class SmartVendingMachine
 
             Product selectedProduct = GetProductByCode(code);
 
-            if (selectedProduct.Stock < 1) // Selalu cek stok cukup untuk 1
+            if (selectedProduct.Stock < 1) // kalau stok nol, gabisa di checkout
             {
                 throw new InvalidOperationException($"Stok produk {selectedProduct.Name} tidak mencukupi.");
             }
@@ -141,30 +139,29 @@ public class SmartVendingMachine
             {
                 if (productTable[i].Code == code)
                 {
-                    productTable[i].Stock -= 1; // Kurangi stok 1
+                    productTable[i].Stock -= 1; // Kurangi stok 1 tiap checkout berhasil
                     break;
                 }
             }
-            totalAmount = selectedProduct.Price; // Hanya satu produk
-            selectedProductCode = code; // Simpan kode produk
-            quantity = 1; // Simpan quantity
+            totalAmount = selectedProduct.Price;
+            selectedProductCode = code; 
+            quantity = 1; 
 
             // Update State
-            //TransitionState("selectProduct"); // Tidak perlu transisi, sudah di Order
-            Console.WriteLine($"1 {selectedProduct.Name} berhasil ditambahkan ke pesanan."); // Output quantity selalu 1
+            Console.WriteLine($"1 {selectedProduct.Name} berhasil ditambahkan ke pesanan.");
             Console.WriteLine($"Total Harga: {totalAmount}");
         }
         catch (ArgumentException ex)
         {
             TransitionState("error");
             Console.WriteLine($"Error: {ex.Message}");
-            Environment.Exit(1); // Terminate program
+            Environment.Exit(1);
         }
         catch (InvalidOperationException ex)
         {
             TransitionState("error");
             Console.WriteLine($"Error: {ex.Message}");
-            Environment.Exit(1); // Terminate program
+            Environment.Exit(1);
         }
     }
 
@@ -181,7 +178,7 @@ public class SmartVendingMachine
         Console.WriteLine("Nama Produk\tJumlah\tHarga");
         Console.WriteLine("-----------------------------------");
         Product product = GetProductByCode(selectedProductCode);
-        Console.WriteLine($"{product.Name}\t\t1\t{totalAmount}"); // Quantity selalu 1
+        Console.WriteLine($"{product.Name}\t\t1\t{totalAmount}");
         Console.WriteLine("-----------------------------------");
         Console.WriteLine($"Total\t\t\t{totalAmount}");
         Console.WriteLine("-----------------------------------");
@@ -217,13 +214,13 @@ public class SmartVendingMachine
         {
             TransitionState("error");
             Console.WriteLine($"Error: {ex.Message}");
-            Environment.Exit(1); // Terminate program
+            Environment.Exit(1); 
         }
         catch (InvalidOperationException ex)
         {
             TransitionState("error");
             Console.WriteLine($"Error: {ex.Message}");
-            Environment.Exit(1); // Terminate program
+            Environment.Exit(1); 
         }
     }
 
@@ -254,18 +251,17 @@ public class SmartVendingMachine
 
         while (true)
         {
-            //Console.Clear();
             Console.WriteLine("\n=== Smart Vending Machine ===");
             Console.WriteLine($"Status: {vendingMachine.GetCurrentState()}");
             vendingMachine.DisplayProducts();
 
             if (vendingMachine.GetCurrentState() == VendingState.Order)
             {
-                Console.WriteLine("Pilih produk (contoh: P01):"); //ubah prompt
+                Console.WriteLine("Pilih produk (contoh: P01):");
                 input = Console.ReadLine();
                 try
                 {
-                    ProductCode code = (ProductCode)Enum.Parse(typeof(ProductCode), input.ToUpper()); // Convert input to uppercase
+                    ProductCode code = (ProductCode)Enum.Parse(typeof(ProductCode), input.ToUpper()); // Convert input agar bisa lowercase juga
                     vendingMachine.SelectProduct(code);
                     vendingMachine.Checkout();
                     Console.WriteLine("Masukkan pembayaran:");
@@ -276,17 +272,17 @@ public class SmartVendingMachine
                 catch (ArgumentException ex)
                 {
                     Console.WriteLine($"Terjadi kesalahan: {ex.Message}");
-                    Environment.Exit(1); // Terminate program
+                    Environment.Exit(1); 
                 }
                 catch (FormatException)
                 {
                     Console.WriteLine("Format pembayaran tidak valid.");
-                    Environment.Exit(1); // Terminate program
+                    Environment.Exit(1); 
                 }
             }
             else if (vendingMachine.GetCurrentState() == VendingState.Payment)
             {
-                // Tidak ada tampilan produk di sini
+
             }
             else if (vendingMachine.GetCurrentState() == VendingState.Finish)
             {
@@ -297,6 +293,7 @@ public class SmartVendingMachine
             else if (vendingMachine.GetCurrentState() == VendingState.Error)
             {
                 Console.WriteLine("Terjadi kesalahan. Mesin sedang direset.");
+                
                 // Kembalikan stok
                 Product product = vendingMachine.GetProductByCode(vendingMachine.selectedProductCode);
                 for (int i = 0; i < productTable.Length; i++)
@@ -312,4 +309,3 @@ public class SmartVendingMachine
         }
     }
 }
-
