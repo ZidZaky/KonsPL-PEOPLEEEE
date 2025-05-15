@@ -1,20 +1,27 @@
 ﻿using AutoVending;
+using AutoVending.Models;
+using System.Diagnostics;
 using UTS_PEOPLEEEE;
 
 class Program
 {
     static void Main()
     {
+        List<Transaction> history = new List<Transaction>();
         LanguageConfig langConfig = null;
         string[] supportedLanguages = { "ID", "EN", "JV" };
 
         // Pemilihan Bahasa
         while (true)
         {
-            Console.Clear();
+            //Console.Clear();
             Console.Write("Select Language (ID/EN/JV): ");
             string inputLang = Console.ReadLine()?.ToUpper();
             //Console.Write(inputLang);
+
+            //DBC
+            Debug.Assert(!string.IsNullOrEmpty(inputLang), "Input bahasa tidak boleh kosong");
+            Debug.Assert(inputLang == "ID" || inputLang == "EN" || inputLang == "JV", "Bahasa tidak dikenali");
 
 
             if (supportedLanguages.Contains(inputLang))
@@ -45,22 +52,27 @@ class Program
 
         //Console.WriteLine("Bahasa dipilih: " + langConfig.Language);
         //Console.WriteLine("Total bahasa: " + langConfig.Messages.Count);
-        var manager = new VendingManager();
+        //var manager = new VendingManager();
+        //SeedDummyProducts(manager);
+        var manager = new GenericRepository<Product>();
         SeedDummyProducts(manager);
 
         // Menu Utama
         while (true)
         {
-            //Console.Clear();
+            Console.Clear();
             Console.WriteLine(langConfig.GetMessage("welcome"));
             Console.WriteLine(langConfig.GetMessage("choose_instruction"));
             Console.WriteLine(langConfig.GetMessage("exit_instruction"));
             Console.WriteLine("====================================");
 
-            foreach (var p in manager.LihatSemuaProduk())
+            foreach (var p in manager.LihatSemua())
             {
                 Console.WriteLine($"[{p.Id}] {p.Name} - Rp {p.Price} x {p.Quantity}");
             }
+
+        
+
 
             Console.Write("Input: ");
             var input = Console.ReadLine()?.Trim().ToUpper();
@@ -72,14 +84,45 @@ class Program
             {
                 Console.Clear();
                 Console.WriteLine(langConfig.GetMessage("admin_dashboard"));
-                Console.WriteLine(langConfig.GetMessage("total_products") + manager.LihatSemuaProduk().Count);
-                Console.WriteLine(langConfig.GetMessage("total_value") + manager.HitungTotal());
+                Console.WriteLine("====================================");
+
+                foreach (var p in manager.LihatSemua())
+                {
+                    Console.WriteLine($"[{p.Id}] {p.Name} - Rp {p.Price} x {p.Quantity}");
+                }
+                Console.WriteLine(langConfig.GetMessage("total_products") + manager.LihatSemua().Count);
+                Console.WriteLine(langConfig.GetMessage("total_value") + manager.HitungTotal(p => p.Price * p.Quantity));
+                Console.WriteLine("99 - View Transaction History");
                 Console.WriteLine(langConfig.GetMessage("press_enter_return"));
-                Console.ReadLine();
+
+                var adminInput = Console.ReadLine()?.Trim();
+
+                if (adminInput == "99")
+                {
+                    Console.Clear();
+                    Console.WriteLine("=== TRANSACTION HISTORY ===");
+                    if (history.Count == 0)
+                    {
+                        Console.WriteLine("No transactions yet.");
+                    }
+                    else
+                    {
+                        foreach (var t in history)
+                        {
+                            Console.WriteLine($"{t.Timestamp:g} - {t.ProductName} x{t.Quantity} = Rp {t.TotalPrice}");
+                        }
+                    }
+                    Console.WriteLine(langConfig.GetMessage("press_enter_return"));
+                    Console.ReadLine();
+                    Console.Clear();
+                }
+
                 continue;
             }
 
-            var selected = manager.DetilProduk(input);
+
+            //var selected = manager.DetilProduk(input);
+            var selected = manager.Detil(input);
             if (selected != null)
             {
                 Console.WriteLine($"{langConfig.GetMessage("product_selection")}{selected.Name}");
@@ -89,7 +132,18 @@ class Program
                     var total = selected.Price * qty;
                     Console.WriteLine($"Total: Rp {total}");
                     Console.WriteLine(langConfig.GetMessage("checkout_success"));
+
+                    // Tambah ke riwayat transaksi
+                    history.Add(new Transaction
+                    {
+                        ProductId = selected.Id,
+                        ProductName = selected.Name,
+                        Quantity = qty,
+                        TotalPrice = (double)total,
+                        Timestamp = DateTime.Now
+                    });
                 }
+
                 else
                 {
                     Console.WriteLine(langConfig.GetMessage("invalid_quantity"));
@@ -103,13 +157,14 @@ class Program
                 Console.WriteLine(langConfig.GetMessage("no_product"));
                 Console.WriteLine(langConfig.GetMessage("press_enter_return"));
                 Console.ReadLine();
+                Console.Clear();
             }
         }
 
         Console.WriteLine(langConfig.GetMessage("thank_you"));
     }
 
-    static void SeedDummyProducts(VendingManager manager)
+    static void SeedDummyProducts(GenericRepository<Product> manager)
     {
         var dummyProducts = new List<Product>
         {
@@ -133,7 +188,7 @@ class Program
 
         foreach (var product in dummyProducts)
         {
-            manager.TambahProduk(product);
+            manager.Tambah(product);
         }
     }
 }

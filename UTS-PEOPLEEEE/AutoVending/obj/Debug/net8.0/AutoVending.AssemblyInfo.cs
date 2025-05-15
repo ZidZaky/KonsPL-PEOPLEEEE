@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AutoVending")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b805cfb1f2145a8e9740976e946ea48d09be3da4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a568eea43748e19c3652f074111182cbf264c94")]
 [assembly: System.Reflection.AssemblyProductAttribute("AutoVending")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AutoVending")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

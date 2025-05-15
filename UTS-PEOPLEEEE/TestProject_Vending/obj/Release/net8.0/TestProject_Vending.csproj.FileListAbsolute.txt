@@ -1,0 +1,7 @@
+D:\Semester_6\Konstruksi PL - FWP\KonsPL-PEOPLEEEE\UTS-PEOPLEEEE\TestProject_Vending\bin\Release\net8.0\CoverletSourceRootsMapping_TestProject_Vending
+D:\Semester_6\Konstruksi PL - FWP\KonsPL-PEOPLEEEE\UTS-PEOPLEEEE\TestProject_Vending\obj\Release\net8.0\TestProject_Vending.csproj.AssemblyReference.cache
+D:\Semester_6\Konstruksi PL - FWP\KonsPL-PEOPLEEEE\UTS-PEOPLEEEE\TestProject_Vending\obj\Release\net8.0\TestProject_Vending.GeneratedMSBuildEditorConfig.editorconfig
+D:\Semester_6\Konstruksi PL - FWP\KonsPL-PEOPLEEEE\UTS-PEOPLEEEE\TestProject_Vending\obj\Release\net8.0\TestProject_Vending.AssemblyInfoInputs.cache
+D:\Semester_6\Konstruksi PL - FWP\KonsPL-PEOPLEEEE\UTS-PEOPLEEEE\TestProject_Vending\obj\Release\net8.0\TestProject_Vending.AssemblyInfo.cs
+D:\Semester_6\Konstruksi PL - FWP\KonsPL-PEOPLEEEE\UTS-PEOPLEEEE\TestProject_Vending\obj\Release\net8.0\TestProject_Vending.csproj.CoreCompileInputs.cache
+D:\Semester_6\Konstruksi PL - FWP\KonsPL-PEOPLEEEE\UTS-PEOPLEEEE\TestProject_Vending\obj\Release\net8.0\TestProject_Vending.sourcelink.json
