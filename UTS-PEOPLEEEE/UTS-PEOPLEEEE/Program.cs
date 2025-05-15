@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Diagnostics;
+using System.IO;
 using UTS_PEOPLEEEE;
 
 class Program
@@ -7,26 +9,38 @@ class Program
     {
         string currencyFilePath = "currency_config.json";
         string modeFilePath = "operational_config.json";
+
         if (!File.Exists(currencyFilePath))
         {
             Console.WriteLine($"❌ File tidak ditemukan: {Path.GetFullPath(currencyFilePath)}");
             return;
         }
+
         if (!File.Exists(modeFilePath))
         {
             Console.WriteLine($"❌ File tidak ditemukan: {Path.GetFullPath(currencyFilePath)}");
             return;
         }
+
         var currencyConfig = CurrencyConfig<Currency>.Load(currencyFilePath);
         var jamConfig = JamOperationalConfig.Load(modeFilePath);
 
-        if (currencyConfig?.Currencies == null || currencyConfig.Currencies.Count == 0)
+        //Implementasi Design by Contract
+        Debug.Assert(currencyConfig != null, "currencyConfig should not be null");
+        Debug.Assert(currencyConfig.Currencies != null, "Currencies dictionary should not be null");
+        Debug.Assert(currencyConfig.Currencies.Count > 0, "Currencies dictionary should not be empty");
+
+        Debug.Assert(jamConfig != null, "jamConfig should not be null");
+        Debug.Assert(jamConfig.Modes != null, "Modes dictionary should not be null");
+        Debug.Assert(jamConfig.Modes.Count > 0, "Modes dictionary should not be empty");
+
+        if (currencyConfig.Currencies.Count == 0)
         {
             Console.WriteLine("Gagal memuat data mata uang.");
             return;
         }
 
-        if (jamConfig?.Modes == null || jamConfig.Modes.Count == 0)
+        if (jamConfig.Modes.Count == 0)
         {
             Console.WriteLine("Gagal memuat data jam operasional.");
             return;
