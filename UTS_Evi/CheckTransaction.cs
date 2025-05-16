@@ -4,43 +4,44 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
+using StatusState;
+using System.Diagnostics;
 
 namespace UTS_Evi
 {
     public class CheckTransaction
     {
-        enum Status { Idle, Order, Payment, Done };
-        Status status = Status.Idle;
+        statusVending vending = new statusVending();
 
 
         public void UI()
         {
             String Buy = "0";
             List<int> Products = [1, 2];
-            Console.WriteLine("=====================EVI FITRIYA========================");
-
+            Console.WriteLine("==================  EVI FITRIYA  ========================");
 
 
             //Automata
-            while (status != Status.Done)
+            while ( vending.Get_Current_Status()!= "Done")
             {
-                switch (status)
+                switch (vending.Get_Current_Status())
                 {
-                    case Status.Idle:
+                    case "Idle":
                         Buy = "0";
                         Products = null;
                         Console.WriteLine("=====================idle========================");
                         Buy = Idle();
                         break;
-                    case Status.Order:
+                    case "Order":
                         Console.WriteLine("===================Order==============");
                         Products = Order(Buy);
                         break;
-                    case Status.Payment:
+                    case "Payment":
                         Console.WriteLine("==================Payment===========");
                         Payyment(Products);
                         break;
                 }
+
             }
             Console.WriteLine("Application Done");
         }
@@ -59,15 +60,24 @@ namespace UTS_Evi
             Console.WriteLine("untuk membeli lebih dari 1 pisahkan dengan ',', contoh 1,2");
             Console.Write("input number:");
             String input = Console.ReadLine();
-            if (input == "END" || input == "end" || input == "End")
+            if (input.ToLower()=="done")
             {
-                status = Status.Done;
-                return input;
+
+                return vending.set_Status_Done();
             }
             else
             {
-                status = Status.Order;
-                return input;
+                Console.WriteLine("masuk else");
+                if (input != "0")
+                {
+                    vending.set_Status_Order();
+                    return input;
+                }
+                else
+                {
+                    return invalidInput();
+
+                }
             }
         }
         public Object[][] Product()
@@ -104,52 +114,87 @@ namespace UTS_Evi
 
         public List<int> Order(String inputan)
         {
-            Console.WriteLine("Product yang anda beli");
-            List<int> Product = new List<int>();
+            Debug.Assert(!string.IsNullOrWhiteSpace(inputan), "Inputan tidak boleh kosong");
+            Debug.Assert((inputan!="0"), "Inputan tidak boleh 0");
 
+            List<int> Product = new List<int>();
             if (inputan.Contains(","))
             {
+                String[] a = inputan.Split(',');
+                foreach (var item in a)
                 {
-                    String[] a = inputan.Split(',');
-                    foreach (var item in a)
-                        if (int.TryParse(item, out int result))
+                    if (int.TryParse(item, out int result))
+                    {
+                        if (result != 0)
                         {
                             Product.Add(result);
                         }
+                    }
                 }
+
             }
             else
             {
                 if (int.TryParse(inputan, out int result))
                 {
-                    Product.Add(result);
+                    if (result != 0)
+                    {
+
+                        Product.Add(result);
+                    }
+                    else
+                    {
+                        invalidInput();
+                        return null;
+
+                    }
+
                 }
                 else
                 {
-                    Console.WriteLine("Invalid input");
-                    status = Status.Idle;
+                    invalidInput();
                     return null;
                 }
             }
-            ShowProductBuy(Product);
 
-            Console.Write("Apakah Barang yang akan dibeli sudah sesuai? (y/n) ");
-            String input = Console.ReadLine();
-            if (input == "y" || input == "Y")
+            if (Product.Sum() != 0)
             {
+                ShowProductBuy(Product);
 
-                status = Status.Payment;
-                return Product;
+
+                Console.Write("Apakah Barang yang akan dibeli sudah sesuai? (y/n) ");
+                String input = Console.ReadLine();
+                if (input == "y" || input == "Y")
+                {
+
+                    vending.set_Status_Payment();
+                    return Product;
+                }
+                else
+                {
+                    vending.set_Status_Idle();
+                    return null;
+                }
+
             }
             else
             {
-                status = Status.Idle;
+                invalidInput();
                 return null;
             }
         }
 
+        public String invalidInput()
+        {
+            Console.WriteLine("Invalid input");
+            vending.set_Status_Idle();
+            //Thread.Sleep(1000);
+            return null;
+        }
+
         public int ShowProductBuy(List<int> inputan)
         {
+            Console.WriteLine("Product yang anda beli");
             Console.WriteLine("Detail Produk: ");
             Object[][] product = Product();
             String[] Name = (String[])product[0];
@@ -160,11 +205,11 @@ namespace UTS_Evi
             Console.WriteLine(inputan[0]);
             foreach (var item in inputan)
             {
-                if (item < Name.Length && item > 0)
+                if (item < Name.Length && item> 0)
                 {
-                    Console.WriteLine((count + 1) + ". " + Name[item] + " - " + harga[item]);
+                    Console.WriteLine((count + 1) + ". " + Name[item-1] + " - " + harga[item-1]);
                     count += 1;
-                    sum += harga[item];
+                    sum += harga[item-1];
                 }
             }
 
@@ -172,7 +217,7 @@ namespace UTS_Evi
             if (sum == 0)
             {
                 Console.WriteLine("Tidak ada product dengan Nomor Tersebut");
-                status = Status.Idle;
+                vending.set_Status_Idle();
             }
 
             return sum;
@@ -186,13 +231,14 @@ namespace UTS_Evi
             Console.WriteLine("|              QRIS PAYMENT             |");
             Console.WriteLine("|            SCAN THE QR CODE           |");
             Console.WriteLine("=========================================");
-            Thread.Sleep(1000);
+          
+            //Thread.Sleep(1000);
             Console.WriteLine("\n\n Pembayaranmu telah diterima, silahkan ambil produknya di bawah");
             Console.WriteLine("Terimakasih");
-            Thread.Sleep(1000);
+            //Thread.Sleep(1000);
             Console.WriteLine("Dalam 5 detik Halaman ini akan di reset");
-            Thread.Sleep(5000);
-            status = Status.Idle;
+            //Thread.Sleep(5000);
+            vending.set_Status_Idle();
         }
 
     }

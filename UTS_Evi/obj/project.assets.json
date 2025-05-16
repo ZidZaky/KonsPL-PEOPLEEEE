@@ -1,11 +1,29 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "StatusState/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/StatusState.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/StatusState.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "StatusState/1.0.0": {
+      "type": "project",
+      "path": "../StatusState/StatusState.csproj",
+      "msbuildProject": "../StatusState/StatusState.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "StatusState >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\evfi2\\.nuget\\packages\\": {},
@@ -38,7 +56,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\APRIBADI\\EVI FITRIYA\\ITTELKOM\\SEMESTER 6\\KONSTRUKSI - FIDI\\UTS\\KonsPL-PEOPLEEEE\\StatusState\\StatusState.csproj": {
+              "projectPath": "C:\\APRIBADI\\EVI FITRIYA\\ITTELKOM\\SEMESTER 6\\KONSTRUKSI - FIDI\\UTS\\KonsPL-PEOPLEEEE\\StatusState\\StatusState.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

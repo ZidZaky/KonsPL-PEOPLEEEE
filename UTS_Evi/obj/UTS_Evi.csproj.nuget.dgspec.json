@@ -4,6 +4,22 @@
     "C:\\APRIBADI\\EVI FITRIYA\\ITTELKOM\\SEMESTER 6\\KONSTRUKSI - FIDI\\UTS\\KonsPL-PEOPLEEEE\\UTS_Evi\\UTS_Evi.csproj": {}
   },
   "projects": {
+    "C:\\APRIBADI\\EVI FITRIYA\\ITTELKOM\\SEMESTER 6\\KONSTRUKSI - FIDI\\UTS\\KonsPL-PEOPLEEEE\\StatusState\\StatusState.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\APRIBADI\\EVI FITRIYA\\ITTELKOM\\SEMESTER 6\\KONSTRUKSI - FIDI\\UTS\\KonsPL-PEOPLEEEE\\StatusState\\StatusState.csproj",
+        "projectName": "StatusState",
+        "projectPath": "C:\\APRIBADI\\EVI FITRIYA\\ITTELKOM\\SEMESTER 6\\KONSTRUKSI - FIDI\\UTS\\KonsPL-PEOPLEEEE\\StatusState\\StatusState.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\APRIBADI\\EVI FITRIYA\\ITTELKOM\\SEMESTER 6\\KONSTRUKSI - FIDI\\UTS\\KonsPL-PEOPLEEEE\\UTS_Evi\\UTS_Evi.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -31,7 +47,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\APRIBADI\\EVI FITRIYA\\ITTELKOM\\SEMESTER 6\\KONSTRUKSI - FIDI\\UTS\\KonsPL-PEOPLEEEE\\StatusState\\StatusState.csproj": {
+                "projectPath": "C:\\APRIBADI\\EVI FITRIYA\\ITTELKOM\\SEMESTER 6\\KONSTRUKSI - FIDI\\UTS\\KonsPL-PEOPLEEEE\\StatusState\\StatusState.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
