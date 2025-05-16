@@ -21,6 +21,9 @@
             "fileVersion": "1.0.0.0"
           }
         }
+        "runtime": {
+          "UTS-PEOPLEEEE.dll": {}
+        }
       }
     }
   },
@@ -29,11 +32,14 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+<<<<<<< HEAD
     },
     "AutoVending/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
+=======
+>>>>>>> origin/1201220449_FarhanNugraha
     }
   }
 }

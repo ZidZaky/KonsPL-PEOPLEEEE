@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UTS-PEOPLEEEE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a568eea43748e19c3652f074111182cbf264c94")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6dd088f4fdb3e900e67b7d804963ac58a57153fe")]
+>>>>>>> origin/1201220449_FarhanNugraha
 [assembly: System.Reflection.AssemblyProductAttribute("UTS-PEOPLEEEE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UTS-PEOPLEEEE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
