@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonsPL-PEOPLEEEE\\VendingMachineSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0136963C-F415-EFA0-BE2E-55EFB5EE0D85}|..\\TableDrivenVend\\TableDrivenVend.csproj|c:\\users\\lenovo\\documents\\visual studio 2022\\project\\konspl-peopleeee\\tabledrivenvend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B40358-50BD-FF8B-7341-A1098CA20C2E}|..\\VendLib\\VendLib.csproj|c:\\users\\lenovo\\documents\\visual studio 2022\\project\\konspl-peopleeee\\vendlib\\vendingmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B40358-50BD-FF8B-7341-A1098CA20C2E}|..\\VendLib\\VendLib.csproj|c:\\users\\lenovo\\documents\\visual studio 2022\\project\\konspl-peopleeee\\vendlib\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9EE5D7-5399-A008-B6E8-01D5A5B3348F}|..\\MSTestVend\\MSTestVend.csproj|c:\\users\\lenovo\\documents\\visual studio 2022\\project\\konspl-peopleeee\\mstestvend\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9EE5D7-5399-A008-B6E8-01D5A5B3348F}|..\\MSTestVend\\MSTestVend.csproj|c:\\users\\lenovo\\documents\\visual studio 2022\\project\\konspl-peopleeee\\mstestvend\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B40358-50BD-FF8B-7341-A1098CA20C2E}|..\\VendLib\\VendLib.csproj|c:\\users\\lenovo\\documents\\visual studio 2022\\project\\konspl-peopleeee\\vendlib\\productcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6B40358-50BD-FF8B-7341-A1098CA20C2E}|..\\VendLib\\VendLib.csproj|c:\\users\\lenovo\\documents\\visual studio 2022\\project\\konspl-peopleeee\\vendlib\\vendlib.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C55737C-D31A-41B9-853F-5CB0A7F4C8B5}|..\\UnitTestVend\\UnitTestVend\\UnitTestVend.csproj|c:\\users\\lenovo\\documents\\visual studio 2022\\project\\konspl-peopleeee\\unittestvend\\unittestvend\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0136963C-F415-EFA0-BE2E-55EFB5EE0D85}|..\\TableDrivenVend\\TableDrivenVend.csproj|c:\\users\\lenovo\\documents\\visual studio 2022\\project\\konspl-peopleeee\\tabledrivenvend\\tabledrivenvend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonsPL-PEOPLEEEE\\TableDrivenVend\\Program.cs",
+              "RelativeDocumentMoniker": "..\\TableDrivenVend\\Program.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonsPL-PEOPLEEEE\\TableDrivenVend\\Program.cs",
+              "RelativeToolTip": "..\\TableDrivenVend\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T11:36:01.446Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Test1.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonsPL-PEOPLEEEE\\MSTestVend\\Test1.cs",
+              "RelativeDocumentMoniker": "..\\MSTestVend\\Test1.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonsPL-PEOPLEEEE\\MSTestVend\\Test1.cs",
+              "RelativeToolTip": "..\\MSTestVend\\Test1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T00:43:49.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MSTestSettings.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonsPL-PEOPLEEEE\\MSTestVend\\MSTestSettings.cs",
+              "RelativeDocumentMoniker": "..\\MSTestVend\\MSTestSettings.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonsPL-PEOPLEEEE\\MSTestVend\\MSTestSettings.cs",
+              "RelativeToolTip": "..\\MSTestVend\\MSTestSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T00:43:47.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonsPL-PEOPLEEEE\\VendLib\\Product.cs",
+              "RelativeDocumentMoniker": "..\\VendLib\\Product.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonsPL-PEOPLEEEE\\VendLib\\Product.cs",
+              "RelativeToolTip": "..\\VendLib\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T11:39:28.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VendingMachine.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonsPL-PEOPLEEEE\\VendLib\\VendingMachine.cs",
+              "RelativeDocumentMoniker": "..\\VendLib\\VendingMachine.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonsPL-PEOPLEEEE\\VendLib\\VendingMachine.cs",
+              "RelativeToolTip": "..\\VendLib\\VendingMachine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T11:39:30.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{9d2016e5-735e-4d98-a9af-fff43b64a526}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductCode.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonsPL-PEOPLEEEE\\VendLib\\ProductCode.cs",
+              "RelativeDocumentMoniker": "..\\VendLib\\ProductCode.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonsPL-PEOPLEEEE\\VendLib\\ProductCode.cs",
+              "RelativeToolTip": "..\\VendLib\\ProductCode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T11:38:58.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VendLib.csproj",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonsPL-PEOPLEEEE\\VendLib\\VendLib.csproj",
+              "RelativeDocumentMoniker": "..\\VendLib\\VendLib.csproj",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonsPL-PEOPLEEEE\\VendLib\\VendLib.csproj",
+              "RelativeToolTip": "..\\VendLib\\VendLib.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-05T11:47:31.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonsPL-PEOPLEEEE\\UnitTestVend\\UnitTestVend\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\UnitTestVend\\UnitTestVend\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonsPL-PEOPLEEEE\\UnitTestVend\\UnitTestVend\\UnitTest1.cs",
+              "RelativeToolTip": "..\\UnitTestVend\\UnitTestVend\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T15:58:31.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TableDrivenVend.csproj",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonsPL-PEOPLEEEE\\TableDrivenVend\\TableDrivenVend.csproj",
+              "RelativeDocumentMoniker": "..\\TableDrivenVend\\TableDrivenVend.csproj",
+              "ToolTip": "C:\\Users\\LENOVO\\Documents\\Visual Studio 2022\\Project\\KonsPL-PEOPLEEEE\\TableDrivenVend\\TableDrivenVend.csproj",
+              "RelativeToolTip": "..\\TableDrivenVend\\TableDrivenVend.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-05T11:38:38.761Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
