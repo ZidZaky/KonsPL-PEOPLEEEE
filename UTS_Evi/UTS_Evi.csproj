@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+<<<<<<< HEAD:UTS-PEOPLEEEE/UTS-PEOPLEEEE/UTS-PEOPLEEEE.csproj
+<<<<<<< HEAD
+    <None Remove="languageConfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="languageConfig.json">
+=======
+    <None Remove="operational_config.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="currency_config.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="operational_config.json">
+>>>>>>> origin/1201220450_GiovanDeo
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+<<<<<<< HEAD
+  <ItemGroup>
+    <ProjectReference Include="..\AutoVending\AutoVending.csproj" />
+  </ItemGroup>
+
+=======
+>>>>>>> origin/1201220450_GiovanDeo
+=======
+    <ProjectReference Include="..\StatusState\StatusState.csproj" />
+  </ItemGroup>
+
+>>>>>>> origin/1201222005_Evi_Fitriya:UTS_Evi/UTS_Evi.csproj
+</Project>

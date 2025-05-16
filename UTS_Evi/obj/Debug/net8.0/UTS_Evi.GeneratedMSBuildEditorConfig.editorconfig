@@ -1,0 +1,24 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+<<<<<<< HEAD:UTS-PEOPLEEEE/UTS-PEOPLEEEE/obj/Debug/net8.0/UTS-PEOPLEEEE.GeneratedMSBuildEditorConfig.editorconfig
+build_property.RootNamespace = UTS_PEOPLEEEE
+<<<<<<< HEAD
+build_property.ProjectDir = d:\Semester_6\Konstruksi PL - FWP\KonsPL-PEOPLEEEE\UTS-PEOPLEEEE\UTS-PEOPLEEEE\
+=======
+build_property.ProjectDir = C:\Coding\Konstruksi Perangkat Lunak\KonsPL-PEOPLEEEE\UTS-PEOPLEEEE\UTS-PEOPLEEEE\
+>>>>>>> origin/1201220450_GiovanDeo
+=======
+build_property.RootNamespace = UTS_Evi
+build_property.ProjectDir = C:\APRIBADI\EVI FITRIYA\ITTELKOM\SEMESTER 6\KONSTRUKSI - FIDI\UTS\KonsPL-PEOPLEEEE\UTS_Evi\
+>>>>>>> origin/1201222005_Evi_Fitriya:UTS_Evi/obj/Debug/net8.0/UTS_Evi.GeneratedMSBuildEditorConfig.editorconfig
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
