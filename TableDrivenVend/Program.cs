@@ -17,7 +17,7 @@ class Program
                 Console.WriteLine($"Produk: {product.Name}, Harga: Rp{product.Price}");
             }
             else
-            {   
+            {
                 Console.WriteLine("Produk tidak ditemukan.");
             }
         }

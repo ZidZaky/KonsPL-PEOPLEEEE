@@ -1,31 +1,41 @@
-﻿using VendLib;
+﻿using System;
+using System.Collections.Generic;
 
-public class VendingMachine
+namespace VendLib
 {
-    private Dictionary<ProductCode, Product> _products;
-
-    // Existing default constructor
-    public VendingMachine()
+    public class VendingMachine
     {
-        _products = new Dictionary<ProductCode, Product>
+        private readonly Dictionary<ProductCode, Product> _products;
+
+        public VendingMachine()
         {
-            { ProductCode.A1, new Product { Name = "Chitato", Price = 10000 } },
-            { ProductCode.A2, new Product { Name = "Taro", Price = 12000 } },
-            { ProductCode.A3, new Product { Name = "Qtela", Price = 9000 } },
-            { ProductCode.A4, new Product { Name = "Lay's", Price = 11000 } },
-            { ProductCode.A5, new Product { Name = "Cheetos", Price = 100000 } },
-            { ProductCode.A6, new Product { Name = "Tic Tac", Price = 9000 } }
-        };
-    }
+            _products = GetDefaultProducts();
+        }
 
-    // Additional constructor for testing
-    public VendingMachine(Dictionary<ProductCode, Product> customMap)
-    {
-        _products = customMap;
-    }
+        public VendingMachine(Dictionary<ProductCode, Product> customMap)
+        {
+            if (customMap == null || customMap.Count == 0)
+                throw new ArgumentException("Product map tidak boleh null atau kosong.");
 
-    public Product? GetProduct(ProductCode code)
-    {
-        return _products.TryGetValue(code, out var product) ? product : null;
+            _products = customMap;
+        }
+
+        public Product? GetProduct(ProductCode code)
+        {
+            return _products.TryGetValue(code, out var product) ? product : null;
+        }
+
+        private static Dictionary<ProductCode, Product> GetDefaultProducts()
+        {
+            return new Dictionary<ProductCode, Product>
+            {
+                { ProductCode.A1, new Product("Chitato", 10000) },
+                { ProductCode.A2, new Product("Taro", 12000) },
+                { ProductCode.A3, new Product("Qtela", 9000) },
+                { ProductCode.A4, new Product("Lay's", 11000) },
+                { ProductCode.A5, new Product("Cheetos", 100000) },
+                { ProductCode.A6, new Product("Tic Tac", 9000) }
+            };
+        }
     }
 }
