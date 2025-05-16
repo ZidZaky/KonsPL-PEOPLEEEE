@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "UTS-PEOPLEEEE/1.0.0": {
+        "runtime": {
+          "UTS-PEOPLEEEE.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UTS-PEOPLEEEE/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

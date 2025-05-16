@@ -1,0 +1,17 @@
+{
+  "modes": {
+    "weekday": {
+      "open_hour": 8,
+      "close_hour": 20
+    },
+    "weekend": {
+      "open_hour": 10,
+      "close_hour": 18
+    },
+    "24h": {
+      "open_hour": 0,
+      "close_hour": 24
+    }
+  },
+  "default_mode": "weekday"
+}

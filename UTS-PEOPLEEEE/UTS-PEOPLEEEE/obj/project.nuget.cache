@@ -1,12 +1,18 @@
 {
   "version": 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "h6nRgj3kNWA=",
 =======
   "dgSpecHash": "S4SwHtkagR8=",
 >>>>>>> origin/1201220449_FarhanNugraha
   "success": true,
   "projectFilePath": "D:\\KULIAH\\KONSTRUKSI SOFTWARE\\TUBES\\KonsPL-PEOPLEEEE\\UTS-PEOPLEEEE\\UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj",
+=======
+  "dgSpecHash": "W+Hq1/pNdHc=",
+  "success": true,
+  "projectFilePath": "C:\\Coding\\Konstruksi Perangkat Lunak\\KonsPL-PEOPLEEEE\\UTS-PEOPLEEEE\\UTS-PEOPLEEEE\\UTS-PEOPLEEEE.csproj",
+>>>>>>> origin/1201220450_GiovanDeo
   "expectedPackageFiles": [],
   "logs": []
 }

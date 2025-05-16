@@ -9,17 +9,31 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <None Remove="languageConfig.json" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="languageConfig.json">
+=======
+    <None Remove="operational_config.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="currency_config.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="operational_config.json">
+>>>>>>> origin/1201220450_GiovanDeo
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
 
+<<<<<<< HEAD
   <ItemGroup>
     <ProjectReference Include="..\AutoVending\AutoVending.csproj" />
   </ItemGroup>
 
+=======
+>>>>>>> origin/1201220450_GiovanDeo
 </Project>

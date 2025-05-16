@@ -5,11 +5,17 @@ VisualStudioVersion = 17.13.35818.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UTS-PEOPLEEEE", "UTS-PEOPLEEEE\UTS-PEOPLEEEE.csproj", "{4BC45D1C-427C-44F2-9925-F56C3B29126A}"
 EndProject
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoVending", "AutoVending\AutoVending.csproj", "{F9673118-6A7A-4D7E-86F6-D894BEB95092}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject_Vending", "TestProject_Vending\TestProject_Vending.csproj", "{A0EE78F5-1C6F-4304-A6A6-B50AC04B91D5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoVending_UnitTests", "AutoVending_UnitTests\AutoVending_UnitTests.csproj", "{38716640-9AD8-40D0-8F62-9EBDB53EFAD8}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{BA4732CA-259D-4BA7-B3FD-A792285D846C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSTestVending", "MSTestVending\MSTestVending.csproj", "{9448C1C9-0276-43FD-966A-61EA63E9A9DC}"
+>>>>>>> origin/1201220450_GiovanDeo
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,7 @@ Global
 		{4BC45D1C-427C-44F2-9925-F56C3B29126A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BC45D1C-427C-44F2-9925-F56C3B29126A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BC45D1C-427C-44F2-9925-F56C3B29126A}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 		{F9673118-6A7A-4D7E-86F6-D894BEB95092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F9673118-6A7A-4D7E-86F6-D894BEB95092}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9673118-6A7A-4D7E-86F6-D894BEB95092}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +40,16 @@ Global
 		{38716640-9AD8-40D0-8F62-9EBDB53EFAD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38716640-9AD8-40D0-8F62-9EBDB53EFAD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38716640-9AD8-40D0-8F62-9EBDB53EFAD8}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{BA4732CA-259D-4BA7-B3FD-A792285D846C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA4732CA-259D-4BA7-B3FD-A792285D846C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA4732CA-259D-4BA7-B3FD-A792285D846C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA4732CA-259D-4BA7-B3FD-A792285D846C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9448C1C9-0276-43FD-966A-61EA63E9A9DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9448C1C9-0276-43FD-966A-61EA63E9A9DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9448C1C9-0276-43FD-966A-61EA63E9A9DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9448C1C9-0276-43FD-966A-61EA63E9A9DC}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> origin/1201220450_GiovanDeo
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

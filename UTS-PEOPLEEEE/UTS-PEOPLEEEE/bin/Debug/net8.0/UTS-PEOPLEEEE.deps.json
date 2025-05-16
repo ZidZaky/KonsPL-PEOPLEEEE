@@ -7,6 +7,7 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "UTS-PEOPLEEEE/1.0.0": {
+<<<<<<< HEAD
         "dependencies": {
           "AutoVending": "1.0.0"
         },
@@ -21,6 +22,8 @@
             "fileVersion": "1.0.0.0"
           }
         }
+=======
+>>>>>>> origin/1201220450_GiovanDeo
         "runtime": {
           "UTS-PEOPLEEEE.dll": {}
         }
@@ -33,6 +36,7 @@
       "serviceable": false,
       "sha512": ""
 <<<<<<< HEAD
+<<<<<<< HEAD
     },
     "AutoVending/1.0.0": {
       "type": "project",
@@ -40,6 +44,8 @@
       "sha512": ""
 =======
 >>>>>>> origin/1201220449_FarhanNugraha
+=======
+>>>>>>> origin/1201220450_GiovanDeo
     }
   }
 }

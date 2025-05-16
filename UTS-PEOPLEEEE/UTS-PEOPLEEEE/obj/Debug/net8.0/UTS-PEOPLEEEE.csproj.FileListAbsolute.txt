@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 D:\Semester_6\Konstruksi PL - FWP\KonsPL-PEOPLEEEE\UTS-PEOPLEEEE\UTS-PEOPLEEEE\obj\Debug\net8.0\UTS-PEOPLEEEE.csproj.AssemblyReference.cache
 D:\Semester_6\Konstruksi PL - FWP\KonsPL-PEOPLEEEE\UTS-PEOPLEEEE\UTS-PEOPLEEEE\obj\Debug\net8.0\UTS-PEOPLEEEE.GeneratedMSBuildEditorConfig.editorconfig
 D:\Semester_6\Konstruksi PL - FWP\KonsPL-PEOPLEEEE\UTS-PEOPLEEEE\UTS-PEOPLEEEE\obj\Debug\net8.0\UTS-PEOPLEEEE.AssemblyInfoInputs.cache
@@ -36,3 +37,22 @@ D:\KULIAH\KONSTRUKSI SOFTWARE\TUBES\KonsPL-PEOPLEEEE\UTS-PEOPLEEEE\UTS-PEOPLEEEE
 D:\KULIAH\KONSTRUKSI SOFTWARE\TUBES\KonsPL-PEOPLEEEE\UTS-PEOPLEEEE\UTS-PEOPLEEEE\obj\Debug\net8.0\UTS-PEOPLEEEE.genruntimeconfig.cache
 D:\KULIAH\KONSTRUKSI SOFTWARE\TUBES\KonsPL-PEOPLEEEE\UTS-PEOPLEEEE\UTS-PEOPLEEEE\obj\Debug\net8.0\ref\UTS-PEOPLEEEE.dll
 >>>>>>> origin/1201220449_FarhanNugraha
+=======
+C:\Coding\Konstruksi Perangkat Lunak\KonsPL-PEOPLEEEE\UTS-PEOPLEEEE\UTS-PEOPLEEEE\bin\Debug\net8.0\UTS-PEOPLEEEE.exe
+C:\Coding\Konstruksi Perangkat Lunak\KonsPL-PEOPLEEEE\UTS-PEOPLEEEE\UTS-PEOPLEEEE\bin\Debug\net8.0\UTS-PEOPLEEEE.deps.json
+C:\Coding\Konstruksi Perangkat Lunak\KonsPL-PEOPLEEEE\UTS-PEOPLEEEE\UTS-PEOPLEEEE\bin\Debug\net8.0\UTS-PEOPLEEEE.runtimeconfig.json
+C:\Coding\Konstruksi Perangkat Lunak\KonsPL-PEOPLEEEE\UTS-PEOPLEEEE\UTS-PEOPLEEEE\bin\Debug\net8.0\UTS-PEOPLEEEE.dll
+C:\Coding\Konstruksi Perangkat Lunak\KonsPL-PEOPLEEEE\UTS-PEOPLEEEE\UTS-PEOPLEEEE\bin\Debug\net8.0\UTS-PEOPLEEEE.pdb
+C:\Coding\Konstruksi Perangkat Lunak\KonsPL-PEOPLEEEE\UTS-PEOPLEEEE\UTS-PEOPLEEEE\obj\Debug\net8.0\UTS-PEOPLEEEE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Coding\Konstruksi Perangkat Lunak\KonsPL-PEOPLEEEE\UTS-PEOPLEEEE\UTS-PEOPLEEEE\obj\Debug\net8.0\UTS-PEOPLEEEE.AssemblyInfoInputs.cache
+C:\Coding\Konstruksi Perangkat Lunak\KonsPL-PEOPLEEEE\UTS-PEOPLEEEE\UTS-PEOPLEEEE\obj\Debug\net8.0\UTS-PEOPLEEEE.AssemblyInfo.cs
+C:\Coding\Konstruksi Perangkat Lunak\KonsPL-PEOPLEEEE\UTS-PEOPLEEEE\UTS-PEOPLEEEE\obj\Debug\net8.0\UTS-PEOPLEEEE.csproj.CoreCompileInputs.cache
+C:\Coding\Konstruksi Perangkat Lunak\KonsPL-PEOPLEEEE\UTS-PEOPLEEEE\UTS-PEOPLEEEE\obj\Debug\net8.0\UTS-PEOPLEEEE.sourcelink.json
+C:\Coding\Konstruksi Perangkat Lunak\KonsPL-PEOPLEEEE\UTS-PEOPLEEEE\UTS-PEOPLEEEE\obj\Debug\net8.0\UTS-PEOPLEEEE.dll
+C:\Coding\Konstruksi Perangkat Lunak\KonsPL-PEOPLEEEE\UTS-PEOPLEEEE\UTS-PEOPLEEEE\obj\Debug\net8.0\refint\UTS-PEOPLEEEE.dll
+C:\Coding\Konstruksi Perangkat Lunak\KonsPL-PEOPLEEEE\UTS-PEOPLEEEE\UTS-PEOPLEEEE\obj\Debug\net8.0\UTS-PEOPLEEEE.pdb
+C:\Coding\Konstruksi Perangkat Lunak\KonsPL-PEOPLEEEE\UTS-PEOPLEEEE\UTS-PEOPLEEEE\obj\Debug\net8.0\UTS-PEOPLEEEE.genruntimeconfig.cache
+C:\Coding\Konstruksi Perangkat Lunak\KonsPL-PEOPLEEEE\UTS-PEOPLEEEE\UTS-PEOPLEEEE\obj\Debug\net8.0\ref\UTS-PEOPLEEEE.dll
+C:\Coding\Konstruksi Perangkat Lunak\KonsPL-PEOPLEEEE\UTS-PEOPLEEEE\UTS-PEOPLEEEE\bin\Debug\net8.0\currency_config.json
+C:\Coding\Konstruksi Perangkat Lunak\KonsPL-PEOPLEEEE\UTS-PEOPLEEEE\UTS-PEOPLEEEE\bin\Debug\net8.0\operational_config.json
+>>>>>>> origin/1201220450_GiovanDeo
